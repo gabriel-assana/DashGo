@@ -21,7 +21,7 @@ import {
   useBreakpointValue,
 } from '@chakra-ui/react';
 
-import { useUsers } from '../../services/hooks/userUsers';
+import { useUsers } from '../../services/hooks/useUsers';
 import { Header, Pagination, Sidebar } from '../../components';
 import { queryClient } from '../../services/queryClient';
 import { api } from '../../services/api';
